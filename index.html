@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Happy Birthday</title>
+</head>
+
+<body>
+    <div id="confetti" class="container">
+        <div class="btn-container">
+            <button class="pulse-button" id="pulseButton">
+                <h4>Click me!</h4>
+            </button>
+        </div>
+
+        <div class="gata" id="gataDiv">
+            <img src="gata.png" alt="">
+        </div>
+    </div>
+
+    <script src="main.js" type="module"></script>
+</body>
+
+<script>
+    document.getElementById('pulseButton').addEventListener('click', function () {
+        this.style.display = 'none';
+
+        document.getElementById('gataDiv').style.display = 'flex';
+    });
+</script>
+
+</html>
