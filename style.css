@@ -50,7 +50,7 @@ body {
 
 .gata .gata-hbd img {
   position: relative;
-  bottom: 180px;
+  bottom: 130px;
   width: 80%;
   max-width: 580px;
   z-index: 1;
@@ -59,7 +59,7 @@ body {
 .gata .gata-name {
   text-align: center;
   position: relative;
-  top: 170px;
+  top: 200px;
   width: 100%;
   max-width: 580px;
   z-index: 1;
