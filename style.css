@@ -5,6 +5,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+@font-face {
+  font-family: font-body;
+  src: url(font-body.otf);
+}
+
 body {
   background-color: #eedbbb;
 }
@@ -49,6 +54,20 @@ body {
   width: 80%;
   max-width: 580px;
   z-index: 1;
+}
+
+.gata .gata-name {
+  text-align: center;
+  position: relative;
+  top: 170px;
+  width: 100%;
+  max-width: 580px;
+  z-index: 1;
+}
+
+.gata .gata-name p {
+  font-family: font-body;
+  font-size: 1.25em;
 }
 
 .pulse-button {
